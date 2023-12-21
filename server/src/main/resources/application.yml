@@ -1,0 +1,12 @@
+server:
+  port: 445
+  ssl:
+    enabled: true
+    key-alias: server
+    key-store: classpath:server.keystore
+    key-store-type: jks # pkcs12 jks
+    key-store-password: studyTest
+    key-password: studyTest
+    trust-store: classpath:server.truststore
+    trust-store-password: studyTest
+    client-auth: need
